@@ -100,7 +100,7 @@ if programm_continue == True:
     #menu
 
     menu1 = '1: Сократить ссылку'
-    menu2 = '2: Об утилиты'
+    menu2 = '2: Об утилите'
 
     #short
 
