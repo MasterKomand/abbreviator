@@ -68,7 +68,11 @@ except:
 try:
     import pyshorteners
 except:
-    os.system('pip install pyshorteners')
+    try:
+        os.system('pip install pyshorteners')
+    except:
+        os.system('pip3 install pyshorteners')
+    import pyshorteners
 
 #функции
 
