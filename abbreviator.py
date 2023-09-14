@@ -57,7 +57,14 @@ else:
     dr = '/'
 import os
 import time
-import requests
+try:
+    import requests
+except:
+    try:
+        os.system('pip install requests')
+    except:
+        os.system('pip install requests')
+    import requests
 try:
     import pyshorteners
 except:
